@@ -1,0 +1,5 @@
+let x = "Hello, World!";
+function greet(name) {
+    out("Hello " + name);
+}
+greet(x);

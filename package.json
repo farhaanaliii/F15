@@ -1,0 +1,26 @@
+{
+  "name": "f15-syntax",
+  "displayName": "F15 Syntax Highlighting",
+  "description": "Syntax highlighting and language configuration for F15",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "f15",
+        "aliases": ["F15", "f15"],
+        "extensions": [".f15"],
+        "configuration": "./grammers/language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "f15",
+        "scopeName": "source.f15",
+        "path": "./grammers/f15.tmLanguage.json"
+      }
+    ]
+  }
+}
