@@ -1,4 +1,12 @@
-# F15 🌟
+# F15
+
+[![Stars](https://img.shields.io/github/stars/farhaanaliii/f15?style=for-the-badge\&logo=github\&color=FFD700)](https://github.com/farhaanaliii/f15/stargazers)
+[![Forks](https://img.shields.io/github/forks/farhaanaliii/f15?style=for-the-badge\&logo=github\&color=FF69B4)](https://github.com/farhaanaliii/f15/network/members)
+[![Issues](https://img.shields.io/github/issues/farhaanaliii/f15?style=for-the-badge\&logo=github\&color=00BFFF)](https://github.com/farhaanaliii/f15/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/farhaanaliii/f15?style=for-the-badge\&logo=git\&color=32CD32)](https://github.com/farhaanaliii/f15/commits/main)
+[![Author](https://img.shields.io/badge/author-Farhan%20Ali-blueviolet?style=for-the-badge\&logo=github)](https://github.com/farhaanaliii)
+
+</div>
 
 F15 is a simple programming language that I built in early 2024. The development of this language started by following a tutorial on creating a basic interpreter. Even though I’m not a C programmer by trade, I learned and built this language from scratch by watching the tutorial. After diving into Python, I got sidetracked with other projects, but as 2024 is coming to an end, I plan to return to this project and continue developing it.
 
