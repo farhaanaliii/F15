@@ -43,13 +43,13 @@ greet(x);
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/farhaanaliii/hydrogen.git
+    git clone https://github.com/farhaanaliii/F15.git
     ```
 
 2. Navigate to the project folder:
 
     ```bash
-    cd hydrogen
+    cd F15
     ```
 
 3. Build the project:
@@ -61,7 +61,7 @@ greet(x);
 4. Run the interpreter on a sample file (e.g., `hello.f15`):
 
     ```bash
-    ./build/hydrogen hello.f15
+    ./build/f15 hello.f15
     ```
 
 ## File Extension
