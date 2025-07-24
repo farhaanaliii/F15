@@ -8,7 +8,21 @@ STRIP = strip
 
 SOURCES = $(wildcard $(SRC_DIR)/*.c)
 OBJECTS = $(patsubst $(SRC_DIR)/%.c,$(BUILD_DIR)/%.o,$(SOURCES))
-EXEC = $(BUILD_DIR)/f15
+# Detect OS via uname
+UNAME_S := $(shell uname -s)
+ifeq ($(findstring MINGW,$(UNAME_S)),MINGW)
+    EXE_EXT := .exe
+else ifeq ($(findstring MSYS,$(UNAME_S)),MSYS)
+    EXE_EXT := .exe
+else ifeq ($(findstring CYGWIN,$(UNAME_S)),CYGWIN)
+    EXE_EXT := .exe
+else
+    EXE_EXT :=
+endif
+
+EXEC = $(BUILD_DIR)/f15$(EXE_EXT)
+
+
 
 .PHONY: all clean install release
 
